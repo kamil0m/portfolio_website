@@ -1,4 +1,4 @@
-import { MainLayout } from "./components/layout/MainLayout";
+import { MainLayout } from "./layout/MainLayout";
 import { Home } from "./components/pages/Home";
 import { Aboutme } from "./components/pages/Aboutme";
 

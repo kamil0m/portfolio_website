@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
 import { Test } from './components/test';
-import { MainLayout } from './components/layout/MainLayout';
+import { MainLayout } from './layout/MainLayout';
 // import TodoList from './components/TodoList';
 
 function App() {
