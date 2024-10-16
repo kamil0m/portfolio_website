@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    // align-items: ;
+
+    .navbar__links {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    
+    
+        .navbar__element {
+            padding: 30px;
+            border: 1px solid salmon;
+        }
+    }
+}
