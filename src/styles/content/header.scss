@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
-    // align-items: ;
+    
 
     .navbar__links {
         display: flex;
@@ -13,4 +13,8 @@
             border: 1px solid salmon;
         }
     }
+}
+
+.inactif {
+    color: lightgray
 }
