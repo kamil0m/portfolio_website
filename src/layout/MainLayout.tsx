@@ -11,7 +11,7 @@ export function MainLayout() {
                     <NavLink className="navbar__element" to="/">Home</NavLink>
                     <NavLink className="navbar__element" to="/aboutme">About me</NavLink>
                     <NavLink className="navbar__element" to="/projects">My projects</NavLink>
-                    <NavLink className="navbar__element inactif" to="/">My skills</NavLink>     
+                    <NavLink className="navbar__element" to="/skills">My skills</NavLink>     
                     <NavLink className="navbar__element inactif" to="/">Contact</NavLink>
                 </ul>
             </nav>
