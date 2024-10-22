@@ -7,17 +7,18 @@ interface ProjectsListProps {
 
 export const ProjectsList: React.FC<ProjectsListProps> = ({ projects }) => {
     return (
-        <ul>
+        <ul className='projects__list'>
             {projects.map((project, index) => (
                 <li key={index}>
                     <div className='project__card'>
-                        <div>IMAGE</div>
+                        <div className='project__image'>IMAGE</div>
                         <h2>{project.projectName}</h2>
                         <p>{project.description}</p>
                         <p>{project.context}</p>
                         <ul>
-                            {project.technologiesUsed.map((techno) => (
-                                <li>{techno.name}: {techno.purpose}</li>
+                            Skills and technologies used:
+                            {project.technologiesUsed.map((techno, index) => (
+                                <li key={index}>{techno.name}: {techno.purpose}</li>
                             ))}
                         </ul>
                     </div>
