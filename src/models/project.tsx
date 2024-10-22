@@ -1,8 +1,6 @@
-export class Project {
-    constructor(
-        public projectName: string,
-        public description: string,
-        public context: string,
-        public technologiesUsed: { name: string, purpose: string }[]
-    ) {}
+export default interface Project {
+    projectName: string,
+    description: string,
+    context: string,
+    technologiesUsed: { name: string, purpose: string }[]
 }
