@@ -1,6 +1,8 @@
 @use "generic/normalize";
 @use "generic/reset";
 
+@use "settings/spaces";
+
 @use "content/header.scss";
 @use "content/about.scss";
 @use "content/projects.scss";

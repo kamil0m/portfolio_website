@@ -1,7 +1,12 @@
+@use "../settings/colors";
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: colors.$color-white;
+    background-color: colors.$color-black;
   }
   
   a {
