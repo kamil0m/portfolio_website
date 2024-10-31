@@ -5,8 +5,8 @@ import {
 
 export function MainLayout() {
     return (
-        <>
-            <div className='container'>    
+        <div className='background'>
+            <div className='container navbar__container'>    
                 <nav className='navbar' >
                     <ul className="navbar__links">
                         <NavLink className="navbar__element" to="/">Home</NavLink>
@@ -18,6 +18,6 @@ export function MainLayout() {
                 </nav>
             </div>
             <Outlet/>
-        </>
+        </div>
     )
 }

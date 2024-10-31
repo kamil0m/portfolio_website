@@ -3,15 +3,14 @@
 
 * {
     box-sizing: border-box;
+    z-index: 2;
     margin: 0;
     padding: 0;
     color: colors.$color-white;
-    background-color: colors.$color-black;
+    // background-color: colors.$color-black;
   }
   
   a {
     color: inherit;
     text-decoration: none;
   }
-  
-  
