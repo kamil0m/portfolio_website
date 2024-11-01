@@ -1,4 +1,5 @@
 @use "../settings/colors";
+@use "../settings/fonts";
 
 
 * {
@@ -8,6 +9,7 @@
     padding: 0;
     color: colors.$color-white;
     // background-color: colors.$color-black;
+    font-family: fonts.$font-rleud;
   }
   
   a {

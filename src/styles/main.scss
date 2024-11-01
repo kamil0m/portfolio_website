@@ -3,6 +3,7 @@
 
 @use "settings/spaces";
 @use "settings/mixins";
+@use "settings/fonts";
 
 @use "content/header.scss";
 @use "content/about.scss";
@@ -14,7 +15,8 @@
     background-size: contain;
     width: 100vw; /* Set width of the div */
     height: 100vh; /* Set height of the div */
-    position: relative;
+    position: absolute;
+    z-index: -1;
 
     &::after {
         content: "";

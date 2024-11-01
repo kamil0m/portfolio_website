@@ -5,7 +5,8 @@ import {
 
 export function MainLayout() {
     return (
-        <div className='background'>
+        <>
+            <div className='background'></div>
             <div className='container navbar__container'>    
                 <nav className='navbar' >
                     <ul className="navbar__links">
@@ -18,6 +19,6 @@ export function MainLayout() {
                 </nav>
             </div>
             <Outlet/>
-        </div>
+        </>
     )
 }
