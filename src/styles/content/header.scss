@@ -1,26 +1,75 @@
 @use "../settings/colors";
 @use "../settings/fonts";
 
-.navbar {
-    display: flex;
-    
+// styling inspired from https://tympanus.net/Development/TabStylesInspiration/
 
-    .navbar__links {
+.navbar__container {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar__links {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+
+    li {
         display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: relative;
         align-items: center;
-        height: 100%;
-    
-    
-        .navbar__element {
-            padding: 30px;
-            color: colors.$color-accent;
+        width: 100%;
+
+        margin-top: 1rem;
+        padding: 0.4rem 2rem;                
+        border-radius: 10px 10px 0 0;
+
+
+        &::after {
+            content: "";
+            width: 80%;
+            height: 0.1rem;
+            background: colors.$color-grey;
+            position: absolute;
+            bottom: 0;
+        }
+        
+        a.navbar__element {
+            text-align: center;
+            color: colors.$color-grey;
             font-size: 2rem;
             // font-family: fonts.$font-rleud;
             font-family: fonts.$font-mouse;
+            
+            &:hover,
+            &:focus {
+                color: colors.$color-accent;
+                transition: color 0.4s;
+            }
+        }
+        
+        &.tab-current {
+            background-color: colors.$color-accent;
+            
+            a.navbar__element {
+                color: colors.$color-white;
+            }
+
+            &::after {
+                display: none;
+            }
         }
     }
+}
+.navbar {
+    // display: flex;
+    width: 100%;
+
 }
 
 .inactif {
     color: lightgray
 }
+

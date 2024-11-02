@@ -10,11 +10,19 @@ export function MainLayout() {
             <div className='container navbar__container'>    
                 <nav className='navbar' >
                     <ul className="navbar__links">
-                        <NavLink className="navbar__element" to="/">Home</NavLink>
-                        <NavLink className="navbar__element" to="/aboutme">About me</NavLink>
-                        <NavLink className="navbar__element" to="/projects">My projects</NavLink>
-                        <NavLink className="navbar__element" to="/skills">My skills</NavLink>     
-                        <NavLink className="navbar__element" to="/contact">Contact</NavLink>
+                        <li><NavLink className="navbar__element" to="/">Home</NavLink></li>
+                        <li>
+                            <NavLink className="navbar__element" to="/aboutme">About me</NavLink>
+                        </li>
+                        <li className='tab-current'>
+                            <NavLink className="navbar__element" to="/projects">My projects</NavLink>
+                        </li>
+                        <li>
+                            <NavLink className="navbar__element" to="/skills">My skills</NavLink>     
+                        </li>
+                        <li>
+                            <NavLink className="navbar__element" to="/contact">Contact</NavLink>
+                        </li>
                     </ul>
                 </nav>
             </div>
