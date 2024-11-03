@@ -8,65 +8,48 @@
     justify-content: center;
 }
 
-.navbar__links {
+.navbar {
     display: flex;
-    justify-content: space-around;
-    height: 100%;
+}
+
+a.navbar__element {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     width: 100%;
+    padding: 0.4rem 2rem;                
+    margin-top: 1rem;
+    border-radius: 10px 10px 0 0;
+    font-family: fonts.$font-mouse;
+    color: colors.$color-grey;
+    font-size: 2rem;
+    text-align: center;
+    
+    &:hover,
+    &:focus {
+        color: colors.$color-accent;
+        transition: color 0.4s;
+    }
 
-    li {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        position: relative;
-        align-items: center;
-        width: 100%;
-
-        margin-top: 1rem;
-        padding: 0.4rem 2rem;                
-        border-radius: 10px 10px 0 0;
-
+    &::after {
+        content: "";
+        width: 80%;
+        height: 0.1rem;
+        background: colors.$color-grey;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    &.tab-current {
+        background-color: colors.$color-accent;
+        color: colors.$color-white;
 
         &::after {
-            content: "";
-            width: 80%;
-            height: 0.1rem;
-            background: colors.$color-grey;
-            position: absolute;
-            bottom: 0;
-        }
-        
-        a.navbar__element {
-            text-align: center;
-            color: colors.$color-grey;
-            font-size: 2rem;
-            // font-family: fonts.$font-rleud;
-            font-family: fonts.$font-mouse;
-            
-            &:hover,
-            &:focus {
-                color: colors.$color-accent;
-                transition: color 0.4s;
-            }
-        }
-        
-        &.tab-current {
-            background-color: colors.$color-accent;
-            
-            a.navbar__element {
-                color: colors.$color-white;
-            }
-
-            &::after {
-                display: none;
-            }
+            display: none;
         }
     }
-}
-.navbar {
-    // display: flex;
-    width: 100%;
-
 }
 
 .inactif {
