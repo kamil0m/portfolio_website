@@ -3,56 +3,56 @@
 
 // styling inspired from https://tympanus.net/Development/TabStylesInspiration/
 
-.navbar__container {
-    display: flex;
-    justify-content: center;
-}
 
-.navbar {
+.navbar{
     display: flex;
-}
+    justify-content: space-between;
 
-a.navbar__element {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    padding: 0.4rem 2rem;                
-    margin-top: 1rem;
-    border-radius: 10px 10px 0 0;
-    font-family: fonts.$font-mouse;
-    color: colors.$color-grey;
-    font-size: 2rem;
-    text-align: center;
-    
-    &:hover,
-    &:focus {
-        color: colors.$color-accent;
-        transition: color 0.4s;
-    }
-
-    &::after {
-        content: "";
-        width: 80%;
-        height: 0.1rem;
-        background: colors.$color-grey;
-        position: absolute;
-        bottom: 0;
-    }
-    
-    &.tab-current {
-        background-color: colors.$color-accent;
-        color: colors.$color-white;
+    a.navbar__element {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        // width: 100%;
+        margin-top: 1rem;
+        padding: 0.4rem 2rem;
+        text-align: center;
+        font-family: fonts.$font-mouse;
+        color: colors.$color-grey;
+        font-size: 2rem;
 
         &::after {
-            display: none;
+            content: "";
+            width: 90%;
+            height: 0.2rem;
+            // height: 20px;
+            border-radius: 10px 10px 0 0;
+            background: colors.$color-grey;
+            position: absolute;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        &:hover,
+        &:focus {
+            color: colors.$color-accent;
+            transition: color 0.4s;
+
+            &::after {
+                background-color: colors.$color-accent;
+                transition: 0.4s;
+                
+            }
+        }
+
+        &.tab-current {
+            color: colors.$color-grey;
+
+            &::after {
+                height: 100%;
+                background-color: colors.$color-accent;
+            }
         }
     }
 }
-
-.inactif {
-    color: lightgray
-}
-

@@ -37,15 +37,15 @@ export function MainLayout() {
             <div className='background'></div>
             <div className='container navbar__container'>    
                 <nav className='navbar' >
-                    <NavLink className="navbar__element" to="/" className={({ isActive }) => isActive ? 'navbar__element tab-current' : 'navbar__element'}>Home</NavLink>
+                    <NavLink to="/" className={({ isActive }) => isActive ? 'navbar__element tab-current' : 'navbar__element'}>Home</NavLink>
 
-                    <NavLink className="navbar__element" to="/aboutme" className={({ isActive }) => isActive ? 'navbar__element tab-current' : 'navbar__element'}>About me</NavLink>
+                    <NavLink to="/aboutme" className={({ isActive }) => isActive ? 'navbar__element tab-current' : 'navbar__element'}>About me</NavLink>
 
-                    <NavLink className="navbar__element" to="/projects" className={({ isActive }) => isActive ? 'navbar__element tab-current' : 'navbar__element'}>My projects</NavLink>
+                    <NavLink to="/projects" className={({ isActive }) => isActive ? 'navbar__element tab-current' : 'navbar__element'}>My projects</NavLink>
                 
-                    <NavLink className="navbar__element" to="/skills" className={({ isActive }) => isActive ? 'navbar__element tab-current' : 'navbar__element'}>My skills</NavLink>     
+                    <NavLink to="/skills" className={({ isActive }) => isActive ? 'navbar__element tab-current' : 'navbar__element'}>My skills</NavLink>     
                 
-                    <NavLink className="navbar__element" to="/contact" className={({ isActive }) => isActive ? 'navbar__element tab-current' : 'navbar__element'}>Contact</NavLink>
+                    <NavLink className={({ isActive }) => isActive ? 'navbar__element tab-current' : 'navbar__element'} to="/contact" >Contact</NavLink>
                     
                 </nav>
             </div>
