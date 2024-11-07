@@ -1,0 +1,19 @@
+.background {
+    background-image: url("@/assets/background4.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+    width: 100%; /* Set width of the div */
+    min-height: 100vh; /* Set height of the div */
+    position: fixed;
+    z-index: -1;
+
+    &::after {
+        content: "";
+        height: 100%;
+        width: 100%;
+        top: 0;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: 1;
+    }
+}

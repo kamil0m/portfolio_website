@@ -9,22 +9,4 @@
 @use "content/about.scss";
 @use "content/projects.scss";
 @use "content/skills.scss";
-
-.background {
-    background-image: url("@/assets/background4.jpg");
-    background-size: contain;
-    width: 100vw; /* Set width of the div */
-    height: 100vh; /* Set height of the div */
-    position: absolute;
-    z-index: -1;
-
-    &::after {
-        content: "";
-        height: 100%;
-        width: 100%;
-        top: 0;
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.6);
-        z-index: 1;
-    }
-}
+@use "content/mainLayout.scss";
