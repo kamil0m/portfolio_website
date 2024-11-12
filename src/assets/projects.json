@@ -1,5 +1,6 @@
 [
     {
+        "projectId": "bestshop",
         "projectName": "Coders Lab Workshop_Bestshop",
         "description": "For this project, I developed an interactive calculator for the BestShop project that dynamically updates pricing based on user inputs. The calculator handles various events like changes, clicks, and focus/blur actions to provide a seamless user experience.",
         "context": "This project was part of a workshop focused on reinforcing JavaScript skills through practical application. It involved creating a user-friendly tool to enhance the BestShop website's functionality.",
@@ -19,6 +20,7 @@
             }
         ]
     }, {
+        "projectId": "jedzonko",
         "projectName": "Zaplanuj Jedzonko – Coders Lab Scrumlab_project",
         "description": "The ScrumLab project was designed to simulate real-world teamwork in a web application development environment. The goal was to replicate the dynamics of a development team, focusing on code reviews, problem-solving, and integrating code with fellow team members.This project helped strengthen my skills in collaborative coding, version control, and agile practices, essential for working in a real-world development team. This project highlights my ability to create engaging front-end solutions with a focus on dynamic interactions and responsive design.",
         "context": "This project was completed as part of a week-long sprint, working in a team of three. The focus was on self-directed learning, with minimal instructor intervention, to develop collaborative skills and experience a workflow similar to real-world software projects.",
@@ -38,6 +40,7 @@
             }
         ]
     }, {
+        "projectId": "lexiflash",
         "projectName": "LexiFlash - Coders Lab final project",
         "description": "LexiFlash is a vocabulary learning application designed for individual users. Utilizing vocabulary lists and flashcards, it aims to facilitate effective language learning. Unlike many other vocabulary building apps, LexiFlash offers unique features, including personalized vocabulary sets and immediate feedback on incorrect answers. This ensures a customized learning experience, allowing users to create their own vocabulary lists and review correct answers before making another attempt.",
         "context": "This project was designed to offer an easy-to-use vocabulary learning solution directly in the browser, with no installation required.",
