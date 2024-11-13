@@ -11,6 +11,7 @@
     list-style: none;
 
     .card__item {
+        width: 400px;
         background-color: colors.$color-black;
         padding: 18px;
         border-radius: 12px;
@@ -24,7 +25,8 @@
         }
 
         .card__link {
-            width: 400px;
+            // width: 400px;
+            user-select: none;
             display: block;
             text-decoration: none;
 
