@@ -4,16 +4,18 @@ import Project from "../../models/project";
 import Swiper from 'swiper';
 import { swiperConfig } from '../../swiperConfig';
 import { useEffect } from "react";
+// import { React } from "react";
+// import { useSwiper } from 'swiper/react';
 
 type projectsData = Project[];
 
 export const Projects: React.FC = () => {
 
+    // const swiper = useSwiper('.cards__wrapper', swiperConfig);
+
     useEffect(() => {
         new Swiper('.cards__wrapper', swiperConfig);
     })
-
-    // new Swiper('.cards__wrapper', swiperConfig);
 
     return <>
         <div className="container">
@@ -29,8 +31,8 @@ export const Projects: React.FC = () => {
                     ))}
                 </ul>
                 <div className="swiper-pagination"></div>
-                <div className="swiper-button-prev"></div>
-                <div className="swiper-button-next"></div>
+                <div className="swiper-slide-button swiper-button-prev"></div>
+                <div className="swiper-slide-button swiper-button-next"></div>
             </div>
         </div>
     </>

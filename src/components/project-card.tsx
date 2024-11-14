@@ -17,7 +17,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             <p className='project__description'>{project.description}</p>
             <p className='project__context'>{project.context}</p>
             <h3>Skills and technologies used:</h3>
-            <ul>{project.technologiesUsed.map((techno, index) => (
+            <ul className='techno__list'>{project.technologiesUsed.map((techno, index) => (
                 <li key={index}>
                     <div className='badge'>{techno.name}
                         <span className='techno__tooltip'>{techno.purpose}</span>

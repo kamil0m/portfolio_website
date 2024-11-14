@@ -59,5 +59,85 @@
                 "purpose": "Simulated daily stand-ups, sprint planning, and retrospectives."
             }
         ]
+    }, {
+        "projectId": "lexiflash2",
+        "projectName": "LexiFlash - Coders Lab final project",
+        "description": "LexiFlash is a vocabulary learning application designed for individual users. Utilizing vocabulary lists and flashcards, it aims to facilitate effective language learning. Unlike many other vocabulary building apps, LexiFlash offers unique features, including personalized vocabulary sets and immediate feedback on incorrect answers. This ensures a customized learning experience, allowing users to create their own vocabulary lists and review correct answers before making another attempt.",
+        "context": "This project was designed to offer an easy-to-use vocabulary learning solution directly in the browser, with no installation required.",
+        "technologiesUsed": [
+            {
+                "name": "Version Control (Git & GitHub)",
+                "purpose": "Used for branching, committing, pull requests, and code merging."
+            }, {
+                "name": "JavaScript & Webpack",
+                "purpose": "Structured code modularly for efficient web application development."
+            }, {
+                "name": "SASS & Parcel",
+                "purpose": "For responsive styling and seamless development workflow."
+            }, {
+                "name": "Agile Methodologies (Scrum, Kanban)",
+                "purpose": "Simulated daily stand-ups, sprint planning, and retrospectives."
+            }
+        ]
+    }, {
+        "projectId": "lexiflash3",
+        "projectName": "LexiFlash - Coders Lab final project",
+        "description": "LexiFlash is a vocabulary learning application designed for individual users. Utilizing vocabulary lists and flashcards, it aims to facilitate effective language learning. Unlike many other vocabulary building apps, LexiFlash offers unique features, including personalized vocabulary sets and immediate feedback on incorrect answers. This ensures a customized learning experience, allowing users to create their own vocabulary lists and review correct answers before making another attempt.",
+        "context": "This project was designed to offer an easy-to-use vocabulary learning solution directly in the browser, with no installation required.",
+        "technologiesUsed": [
+            {
+                "name": "Version Control (Git & GitHub)",
+                "purpose": "Used for branching, committing, pull requests, and code merging."
+            }, {
+                "name": "JavaScript & Webpack",
+                "purpose": "Structured code modularly for efficient web application development."
+            }, {
+                "name": "SASS & Parcel",
+                "purpose": "For responsive styling and seamless development workflow."
+            }, {
+                "name": "Agile Methodologies (Scrum, Kanban)",
+                "purpose": "Simulated daily stand-ups, sprint planning, and retrospectives."
+            }
+        ]
+    }, {
+        "projectId": "lexiflash4",
+        "projectName": "LexiFlash - Coders Lab final project",
+        "description": "LexiFlash is a vocabulary learning application designed for individual users. Utilizing vocabulary lists and flashcards, it aims to facilitate effective language learning. Unlike many other vocabulary building apps, LexiFlash offers unique features, including personalized vocabulary sets and immediate feedback on incorrect answers. This ensures a customized learning experience, allowing users to create their own vocabulary lists and review correct answers before making another attempt.",
+        "context": "This project was designed to offer an easy-to-use vocabulary learning solution directly in the browser, with no installation required.",
+        "technologiesUsed": [
+            {
+                "name": "Version Control (Git & GitHub)",
+                "purpose": "Used for branching, committing, pull requests, and code merging."
+            }, {
+                "name": "JavaScript & Webpack",
+                "purpose": "Structured code modularly for efficient web application development."
+            }, {
+                "name": "SASS & Parcel",
+                "purpose": "For responsive styling and seamless development workflow."
+            }, {
+                "name": "Agile Methodologies (Scrum, Kanban)",
+                "purpose": "Simulated daily stand-ups, sprint planning, and retrospectives."
+            }
+        ]
+    }, {
+        "projectId": "lexiflash5",
+        "projectName": "LexiFlash - Coders Lab final project",
+        "description": "LexiFlash is a vocabulary learning application designed for individual users. Utilizing vocabulary lists and flashcards, it aims to facilitate effective language learning. Unlike many other vocabulary building apps, LexiFlash offers unique features, including personalized vocabulary sets and immediate feedback on incorrect answers. This ensures a customized learning experience, allowing users to create their own vocabulary lists and review correct answers before making another attempt.",
+        "context": "This project was designed to offer an easy-to-use vocabulary learning solution directly in the browser, with no installation required.",
+        "technologiesUsed": [
+            {
+                "name": "Version Control (Git & GitHub)",
+                "purpose": "Used for branching, committing, pull requests, and code merging."
+            }, {
+                "name": "JavaScript & Webpack",
+                "purpose": "Structured code modularly for efficient web application development."
+            }, {
+                "name": "SASS & Parcel",
+                "purpose": "For responsive styling and seamless development workflow."
+            }, {
+                "name": "Agile Methodologies (Scrum, Kanban)",
+                "purpose": "Simulated daily stand-ups, sprint planning, and retrospectives."
+            }
+        ]
     }
 ]
