@@ -3,12 +3,17 @@ import projectsData from "../../assets/projects.json";
 import Project from "../../models/project";
 import Swiper from 'swiper';
 import { swiperConfig } from '../../swiperConfig';
+import { useEffect } from "react";
 
 type projectsData = Project[];
 
 export const Projects: React.FC = () => {
 
-    const swiper = new Swiper('.cards__wrapper', swiperConfig); // how can I solve the unused issue ?
+    useEffect(() => {
+        new Swiper('.cards__wrapper', swiperConfig);
+    })
+
+    // new Swiper('.cards__wrapper', swiperConfig);
 
     return <>
         <div className="container">
