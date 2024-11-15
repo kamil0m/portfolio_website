@@ -28,10 +28,10 @@ export const Projects: React.FC = () => {
                         </li>
                     ))}
                 </ul>
-                <div className="swiper-pagination"></div>
             </div>
             <div className="swiper-slide-button swiper-button-prev"></div>
             <div className="swiper-slide-button swiper-button-next"></div>
+            <div className="swiper-pagination"></div>
         </div>
     </>
     

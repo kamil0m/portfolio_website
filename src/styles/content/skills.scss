@@ -1,3 +1,22 @@
+@use "../settings/colors";
+
 .skill-entry {
-    padding: 1rem;
+    list-style: none;
+
+    li {
+        padding: 1em 3rem;
+    }
+}
+
+.badge {
+    display: inline-block;
+    background-color: colors.$color-grey;
+    color: colors.$color-accent;
+    padding: 8px 16px;
+    font-size: 0.9 rem;
+    // font-weight: 800 rem; // import font as a variable for it to work
+    width: fit-content;
+    border-radius: 50px;
+    position: relative;
+    border-bottom: 1px dotted black;
 }
