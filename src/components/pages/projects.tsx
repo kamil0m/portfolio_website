@@ -4,8 +4,6 @@ import Project from "../../models/project";
 import Swiper from 'swiper';
 import { swiperConfig } from '../../swiperConfig';
 import { useEffect } from "react";
-// import { React } from "react";
-// import { useSwiper } from 'swiper/react';
 
 type projectsData = Project[];
 
@@ -21,8 +19,8 @@ export const Projects: React.FC = () => {
         <div className="container">
             <h1>Here are some of my projects:</h1>
         </div>
-        <div className="cards__container swiper">
-            <div className="cards__wrapper">
+        <div className="cards__container">
+            <div className="cards__wrapper swiper">
                 <ul className="cards__list swiper-wrapper">
                     {projectsData.map((project) => (
                         <li key={project.projectId} className="card__item swiper-slide">
@@ -31,9 +29,9 @@ export const Projects: React.FC = () => {
                     ))}
                 </ul>
                 <div className="swiper-pagination"></div>
-                <div className="swiper-slide-button swiper-button-prev"></div>
-                <div className="swiper-slide-button swiper-button-next"></div>
             </div>
+            <div className="swiper-slide-button swiper-button-prev"></div>
+            <div className="swiper-slide-button swiper-button-next"></div>
         </div>
     </>
     

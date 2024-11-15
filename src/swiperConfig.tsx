@@ -13,7 +13,7 @@ export const swiperConfig = {
     el: '.swiper-pagination',
     clickable: true,
     type: 'custom',
-    renderCustom: function (swiper: string, current, total) {
+    renderCustom: function (swiper, current, total) {
       let out = ''
       for (let i = 1; i < total+1; i++) {
         if (i == current) {
@@ -45,10 +45,10 @@ export const swiperConfig = {
       slidesPerView: 1
     },
     768: {
-      slidesPerView: 2
+      slidesPerView: 2.1
     },
     1024: {
-      slidesPerView: 3
+      slidesPerView: 3.2
     }
   }
 };
