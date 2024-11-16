@@ -1,10 +1,22 @@
 @use "../settings/colors";
 
-.skill-entry {
+.skills__container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .skills__title {
+        text-align: center;
+    }
+}
+
+.skills__list {
     list-style: none;
 
-    li {
+    .skill__entry {
         padding: 1em 3rem;
+        text-align: center;
     }
 }
 
