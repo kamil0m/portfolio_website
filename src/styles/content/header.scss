@@ -1,8 +1,160 @@
 @use "../settings/colors";
 @use "../settings/fonts";
+@use "../settings/mixins";
 
+.navbar__container {
+    padding-top: 1rem;
+
+    @include mixins.desktop {
+        padding: 1rem 0 2rem 0;
+    }
+}
+
+.hamburger__label {
+    
+    .hamburger__icon {
+        background-color: rgba(colors.$color-black, 0.8);
+        padding: 1rem;
+        position: relative;
+        cursor: pointer;
+        z-index: 3;
+        font-size: 2rem;
+        
+        &:hover {
+            color: colors.$color-accent;
+            transition: color 0.4s;
+        }
+    }
+    
+    @include mixins.desktop {
+        display: none;
+    }
+}
+
+.hamburger__trigger {
+    display: none;
+    
+    &:checked {
+
+        & ~.navbar {
+            display: flex;
+        }
+        
+        & ~.hamburger__label .hamburger__icon {
+            color: colors.$color-accent;
+        }
+    }
+}
+
+
+.navbar {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 2;
+    
+    
+    .navbar__element {
+        margin-top: 1rem;
+        background-color: rgba(colors.$color-black, 0.8);
+        font-family: fonts.$font-mouse;
+        font-size: 2rem;
+        color: colors.$color-grey;
+        padding: 15px;
+        // background-color: colors.$color-black;
+        // width: fit-content;
+        
+        &:hover,
+        &:focus {
+            color: colors.$color-accent;
+            transition: color 0.4s;
+        }
+        &.tab-current {
+            color: colors.$color-accent;
+        }
+    }
+    
+    @include mixins.desktop {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: space-between;
+        top: 0;
+        width: 100%;
+
+        .navbar__element {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            text-align: center;
+            margin: 0;
+            padding: 0.4em 2em;
+            background-color: transparent;
+            width: 18%;
+
+            &::after {
+                content: "";
+                width: 18%;
+                height: 0.2rem;
+                border-radius: 10px 10px 0 0;
+                background: colors.$color-grey;
+                position: absolute;
+                bottom: 0;
+                z-index: -1;
+            }
+    
+            &:hover,
+            &:focus {
+                color: colors.$color-accent;
+                transition: color 0.4s;
+    
+                &::after {
+                    background-color: colors.$color-accent;
+                    transition: 0.4s;
+                }
+            }
+    
+            &.tab-current {
+                color: colors.$color-grey;
+    
+                &::after {
+                    height: 100%;
+                    background-color: colors.$color-accent;
+                }
+            }
+        }
+    }
+}
+
+.page__title {
+    margin: 0;
+}
+
+// .navbar{
+    // display: flex;
+    // display: none;
+    // flex-direction: column;
+    // background-color: black;
+    // position: absolute;
+    
+    
+        // &.tab-current {
+        //     color: colors.$color-grey;
+
+        //     &::after {
+        //         height: 100%;
+        //         background-color: colors.$color-accent;
+        //     }
+        // }
+// }
+
+
+
+/*
 // styling inspired from https://tympanus.net/Development/TabStylesInspiration/
-
 
 .navbar{
     display: flex;
@@ -16,7 +168,6 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        // width: 100%;
         margin-top: 1rem;
         padding: 0.4em 2em;
         text-align: center;
@@ -28,7 +179,6 @@
             content: "";
             width: 90%;
             height: 0.2rem;
-            // height: 20px;
             border-radius: 10px 10px 0 0;
             background: colors.$color-grey;
             position: absolute;
@@ -58,3 +208,4 @@
         }
     }
 }
+*/

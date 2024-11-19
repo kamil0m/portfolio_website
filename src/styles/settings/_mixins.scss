@@ -1,17 +1,19 @@
-@mixin notebook {
-    @media (max-width: 1352px) {
+@use "spaces.scss";
+
+@mixin desktop {
+    @media (min-width: spaces.$breakpoint-desktop) {
         @content;
     }
 }
 
 @mixin tablet {
-    @media (max-width: 1024px) {
+    @media (min-width: spaces.$breakpoint-tablet) {
         @content;
     }
 }
 
 @mixin mobile {
-    @media (max-width: 792px) {
+    @media (max-width: spaces.$breakpoint-phone) {
         @content;
     }
 }
