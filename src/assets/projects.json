@@ -1,13 +1,13 @@
 [
     {
         "projectId": "bestshop",
-        "projectName": "Coders Lab Workshop_Bestshop",
+        "projectName": "Bestshop",
         "description": "For this project, I developed an interactive calculator for the BestShop project that dynamically updates pricing based on user inputs. The calculator handles various events like changes, clicks, and focus/blur actions to provide a seamless user experience.",
-        "context": "This project was part of a workshop focused on reinforcing JavaScript skills through practical application. It involved creating a user-friendly tool to enhance the BestShop website's functionality.",
+        "context": "This project was part of a Coders Lab workshop focused on reinforcing JavaScript skills through practical application. It involved creating a user-friendly tool to enhance the BestShop website's functionality.",
         "technologiesUsed": [
             {
-                "name": "JavaScript (ES6)",
-                "purpose": "For DOM manipulation and real-time updates"
+                "name": "JavaScript",
+                "purpose": "For DOM manipulation and real-time updates."
             }, {
                 "name": "SASS",
                 "purpose": "Used for responsive and maintainable styling."
@@ -15,50 +15,63 @@
                 "name": "Parcel",
                 "purpose": "Module bundler for efficient code management."
             }, {
-                "name": "HTML/CSS",
-                "purpose": "Structured the interactive elements and overall layout."
+                "name": "CSS",
+                "purpose": "Overall layout."
             }
-        ]
+        ],
+        "otherTechnologies": [
+            {
+                "name": "HTML",
+                "purpose": "Structured the interactive elements."
+            }
+        ],
+        "urlGit": "https://github.com/kamil0m/Workshop_BestShop.git",
+        "urlDemo": ""
     }, {
         "projectId": "jedzonko",
-        "projectName": "Zaplanuj Jedzonko – Coders Lab Scrumlab_project",
-        "description": "The ScrumLab project was designed to simulate real-world teamwork in a web application development environment. The goal was to replicate the dynamics of a development team, focusing on code reviews, problem-solving, and integrating code with fellow team members.This project helped strengthen my skills in collaborative coding, version control, and agile practices, essential for working in a real-world development team. This project highlights my ability to create engaging front-end solutions with a focus on dynamic interactions and responsive design.",
-        "context": "This project was completed as part of a week-long sprint, working in a team of three. The focus was on self-directed learning, with minimal instructor intervention, to develop collaborative skills and experience a workflow similar to real-world software projects.",
+        "projectName": "Zaplanuj Jedzonko",
+        "description": "For this project, I collaborated with a team of two other students in a simulation of real-world teamwork in a web application development environment using the SCRUM methodology. The project involved replicating the dynamics of a development team, emphasizing code reviews, problem-solving, and integrating code with teammates. It also showcased my ability to deliver engaging front-end solutions with dynamic interactions and responsive design.",
+        "context": "This project was part of a Coders Lab SCRUM Project — a week-long sprint, where I worked in a team of three. The focus was on self-directed learning with minimal instructor intervention, allowing us to develop collaborative skills and experience a workflow similar to real-world software projects.",
         "technologiesUsed": [
             {
-                "name": "Version Control (Git & GitHub)",
-                "purpose": "Used for branching, committing, pull requests, and code merging."
-            }, {
                 "name": "JavaScript & Webpack",
                 "purpose": "Structured code modularly for efficient web application development."
             }, {
                 "name": "SASS & Parcel",
                 "purpose": "For responsive styling and seamless development workflow."
             }, {
-                "name": "Agile Methodologies (Scrum, Kanban)",
-                "purpose": "Simulated daily stand-ups, sprint planning, and retrospectives."
+                "name": "Scrum",
+                "purpose": "Simulate a week-long sprint, emphasizing agile practices such as daily stand-ups, sprint planning, and retrospectives. This approach fostered teamwork, self-organization, and iterative development, mimicking real-world software project workflows."
+            }, {
+                "name": "Kanban",
+                "purpose": "Used for sprint planning and retrospectives."
             }
-        ]
+        ],
+        "urlGit": "https://github.com/kamil0m/scrum_lab.git",
+        "urlDemo": ""
     }, {
         "projectId": "lexiflash",
-        "projectName": "LexiFlash - Coders Lab final project",
-        "description": "LexiFlash is a vocabulary learning application designed for individual users. Utilizing vocabulary lists and flashcards, it aims to facilitate effective language learning. Unlike many other vocabulary building apps, LexiFlash offers unique features, including personalized vocabulary sets and immediate feedback on incorrect answers. This ensures a customized learning experience, allowing users to create their own vocabulary lists and review correct answers before making another attempt.",
-        "context": "This project was designed to offer an easy-to-use vocabulary learning solution directly in the browser, with no installation required.",
+        "projectName": "LexiFlash",
+        "description": "A vocabulary learning application designed for individual users. Utilizing vocabulary lists and flashcards, it aims to facilitate effective language learning. Unlike many other vocabulary building apps, LexiFlash offers unique features, including personalized vocabulary sets and immediate feedback on incorrect answers. This ensures a customized learning experience, allowing users to create their own vocabulary lists and review correct answers before making another attempt.",
+        "context": "This project was a final boothcamp validation project designed to offer an easy-to-use vocabulary learning solution directly in the browser, with no installation required.",
         "technologiesUsed": [
             {
-                "name": "Version Control (Git & GitHub)",
-                "purpose": "Used for branching, committing, pull requests, and code merging."
-            }, {
                 "name": "JavaScript & Webpack",
                 "purpose": "Structured code modularly for efficient web application development."
             }, {
                 "name": "SASS & Parcel",
                 "purpose": "For responsive styling and seamless development workflow."
             }, {
-                "name": "Agile Methodologies (Scrum, Kanban)",
-                "purpose": "Simulated daily stand-ups, sprint planning, and retrospectives."
+                "name": "Supabase",
+                "purpose": "Used as an external database server to manage and store project data. It provided real-time data synchronization and streamlined back-end operations, ensuring efficient data handling and seamless integration with the application."
+            }, {
+                "name": "React",
+                "purpose": "Used to build the application's user interface with a component-based architecture. It enabled efficient rendering, dynamic updates, and the creation of a responsive and interactive user experience."
             }
-        ]
+        ],
+        "otherTechnologies": [],
+        "urlGit": "",
+        "urlDemo": ""
     }, {
         "projectId": "lexiflash2",
         "projectName": "LexiFlash - Coders Lab final project",
@@ -78,7 +91,9 @@
                 "name": "Agile Methodologies (Scrum, Kanban)",
                 "purpose": "Simulated daily stand-ups, sprint planning, and retrospectives."
             }
-        ]
+        ],
+        "urlGit": "",
+        "urlDemo": ""
     }, {
         "projectId": "lexiflash3",
         "projectName": "LexiFlash - Coders Lab final project",
@@ -98,7 +113,9 @@
                 "name": "Agile Methodologies (Scrum, Kanban)",
                 "purpose": "Simulated daily stand-ups, sprint planning, and retrospectives."
             }
-        ]
+        ],
+        "urlGit": "",
+        "urlDemo": ""
     }, {
         "projectId": "lexiflash4",
         "projectName": "LexiFlash - Coders Lab final project",
@@ -118,7 +135,9 @@
                 "name": "Agile Methodologies (Scrum, Kanban)",
                 "purpose": "Simulated daily stand-ups, sprint planning, and retrospectives."
             }
-        ]
+        ],
+        "urlGit": "",
+        "urlDemo": ""
     }, {
         "projectId": "lexiflash5",
         "projectName": "LexiFlash - Coders Lab final project",
@@ -138,6 +157,8 @@
                 "name": "Agile Methodologies (Scrum, Kanban)",
                 "purpose": "Simulated daily stand-ups, sprint planning, and retrospectives."
             }
-        ]
+        ],
+        "urlGit": "",
+        "urlDemo": ""
     }
 ]

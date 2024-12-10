@@ -1,14 +1,137 @@
 [
-    "JavaScript ES6", 
-    "React", 
-    "Bootstrap", 
-    "TypeScript", 
-    "Node.JS", 
-    "ExpressJS", 
-    "MongoDB", 
-    "HTML", 
-    "CSS", 
-    "SASS", 
-    "RWD", 
-    "Wordpress"
-]
+    {
+      "category": "Front-end Development Skills",
+      "name": "HTML5",
+      "description": "Markup language for structuring content"
+    },
+    {
+      "category": "Front-end Development Skills",
+      "name": "CSS3",
+      "description": "Styling, animations, and layouts"
+    },
+    {
+      "category": "Front-end Development Skills",
+      "name": "SASS",
+      "description": "Advanced CSS preprocessor for maintainable styles"
+    },
+    {
+      "category": "Front-end Development Skills",
+      "name": "Bootstrap",
+      "description": "Framework for responsive design"
+    },
+    {
+      "category": "Front-end Development Skills",
+      "name": "RWD",
+      "description": "Creating adaptable layouts for all devices"
+    },
+    {
+      "category": "Front-end Development Skills",
+      "name": "JavaScript (ES6)",
+      "description": "Modern JavaScript syntax and features"
+    },
+    {
+      "category": "Front-end Development Skills",
+      "name": "TypeScript",
+      "description": "Strongly typed superset of JavaScript"
+    },
+    {
+      "category": "Front-end Development Skills",
+      "name": "React",
+      "description": "Building dynamic user interfaces with Hooks and State Management"
+    },
+    {
+      "category": "Front-end Development Skills",
+      "name": "UI/UX Design Tools",
+      "description": "Figma and Adobe XD"
+    },
+    {
+      "category": "Back-end Development Skills",
+      "name": "Node.js",
+      "description": "Runtime environment for JavaScript on the server side"
+    },
+    {
+      "category": "Back-end Development Skills",
+      "name": "Express.js",
+      "description": "Framework for building RESTful APIs and web apps"
+    },
+    {
+      "category": "Back-end Development Skills",
+      "name": "MongoDB",
+      "description": "NoSQL database for managing application data"
+    },
+    {
+      "category": "Back-end Development Skills",
+      "name": "Supabase",
+      "description": "Backend-as-a-service for authentication and database management"
+    },
+    {
+      "category": "API Integration and Networking",
+      "name": "APIs",
+      "description": "Working with REST and GraphQL APIs for data fetching and manipulation"
+    },
+    {
+      "category": "Build Tools and Workflow Optimization",
+      "name": "Parcel",
+      "description": "Simple web application bundler"
+    },
+    {
+      "category": "Build Tools and Workflow Optimization",
+      "name": "Webpack",
+      "description": "Module bundler for asset and dependency management"
+    },
+    {
+      "category": "Version Control and Collaboration Tools",
+      "name": "Git",
+      "description": "Managing code versions locally"
+    },
+    {
+      "category": "Version Control and Collaboration Tools",
+      "name": "GitHub",
+      "description": "Collaborating on projects"
+    },
+    {
+      "category": "Version Control and Collaboration Tools",
+      "name": "Scrum",
+      "description": "Team management with sprints and iterative development"
+    },
+    {
+      "category": "Version Control and Collaboration Tools",
+      "name": "Kanban",
+      "description": "Visualizing workflows and managing tasks"
+    },
+    {
+      "category": "No-code and CMS Administration",
+      "name": "WordPress",
+      "description": "Managing and customizing websites without code"
+    },
+    {
+      "category": "Foundational Programming Knowledge",
+      "name": "Java",
+      "description": "Basic understanding of object-oriented principles"
+    },
+    {
+      "category": "Foundational Programming Knowledge",
+      "name": "Python",
+      "description": "Familiarity with syntax and scripting"
+    },
+    {
+      "category": "Additional Suggestions",
+      "name": "Testing Tools",
+      "description": "Jest (unit testing), Cypress (end-to-end testing)"
+    },
+    {
+      "category": "Additional Suggestions",
+      "name": "Cloud Services",
+      "description": "AWS or Firebase"
+    },
+    {
+      "category": "Additional Suggestions",
+      "name": "Other Front-End Frameworks",
+      "description": "Vue.js or Angular"
+    },
+    {
+      "category": "Additional Suggestions",
+      "name": "Performance Optimization",
+      "description": "Lighthouse or lazy loading techniques"
+    }
+  ]
