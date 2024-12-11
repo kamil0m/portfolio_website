@@ -16,8 +16,8 @@ export const Projects: React.FC = () => {
     })
 
     return <>
-        <div className="container">
-            <h1 className="page__title" >Here are some of my projects:</h1>
+        <div className="container home__container">
+            <h1 className="home__title" >Here are some of my projects:</h1>
         </div>
         <div className="cards__container">
             <div className="cards__wrapper swiper">

@@ -1,21 +1,16 @@
 @use "../settings/colors";
 
-.contact__container {
+
+.contact__title {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 3em;
+}
 
-    .contact__title {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-top: 3em;
-    }
-
-    .contact__email {
-        cursor: pointer;
-        color: colors.$color-accent;
-        font-size: 2em;
-        margin: 2em 0;
-    }
+.contact__email {
+    cursor: pointer;
+    color: colors.$color-accent;
+    font-size: 2em;
+    margin: 2em 0;
 }
