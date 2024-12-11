@@ -112,7 +112,6 @@
                 justify-content: flex-start;
                 
                 li {
-                    margin: .1rem;
                     list-style: none;
                 }
     
@@ -127,49 +126,6 @@
                     border-radius: 50px;
                     position: relative;
                     border-bottom: 1px dotted black;
-    
-                    .techno__tooltip {
-                        /* Tooltip text */
-                        visibility: hidden;
-                        width: auto;
-                        background-color: #555;
-                        text-align: center;
-                        padding: 5px;
-                        border-radius: 6px;
-                        min-width: 200%;
-                        max-width: 200px;
-                        display: block;
-    
-                        // /* Position the tooltip text */
-                        position: absolute;
-                        bottom: 125%;
-                        transform: translate(-50%);
-                        left: 50%;
-    
-                        // /* Fade in tooltip */
-                        opacity: 0;
-                        transition: opacity 0.4s;
-    
-                        // /* Tooltip arrow */
-                        &::after {
-                            content: "";
-                            position: absolute;
-                            top: 100%;
-                            left: 50%;
-                            margin-left: -5px;
-                            border-width: 5px;
-                            border-style: solid;
-                            border-color: #555 transparent transparent transparent;
-                        }
-                        
-                    }
-                    /* Show the tooltip text when you mouse over the badge */
-                    &:hover {
-                        .techno__tooltip {
-                            visibility: visible;
-                            opacity: 1;
-                        }
-                    }
                 }
             }
 

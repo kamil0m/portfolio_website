@@ -33,10 +33,13 @@
     }
     
 }
-/* Show the tooltip text when you mouse over the badge */
-*:has(> span.techno__tooltip):hover {
+/* Show the tooltip text when you mouse over its parent */
+
+*:has(> .techno__tooltip):hover {
+
     .techno__tooltip {
         visibility: visible;
         opacity: 1;
+        z-index: 100;
     }
 }

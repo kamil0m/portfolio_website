@@ -7,22 +7,24 @@ export const Skills: React.FC = () => {
     console.log(uniqueCategories);
 
     return <div className="container skills__container">
-        <h1 className="skills__title">Here's what I can do:</h1>
+        <h1 className="skills__title">Here's what I can do !</h1>
         {uniqueCategories.map((category, index) => {
             return (
-                <>
-                <h2 key={index}>{category}</h2>
-                {skills.filter(skill => skill.category === category).map((skill, index) => {
-                    return (
-                        <li key={index} className="skills__card">
-                            {/* <img src={skill.image} alt={skill.name} className="skills__image"/> */}
-                            <div className="skills__name">{skill.name}
-                                <span className="skills__description techno__tooltip">{skill.description}</span>
-                            </div>
-                        </li>
-                    )
-                })}
-                </>
+                <div className="skills__card" >
+                    <h2 className="skills__category" key={index}>{category} :</h2>
+                        
+                    <ul className="skills__list" >
+                        {skills.filter(skill => skill.category === category).map((skill, index) => {
+                            return (
+                                <li key={index} className="skills__name badge">{skill.name}
+                                    <span className="skills__description techno__tooltip">{skill.description}</span>
+                                </li>
+                            )
+                        })}
+                    </ul>
+                </div>
+
+            
             )
         })}
     </div>
