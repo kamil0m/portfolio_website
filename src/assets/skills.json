@@ -113,25 +113,5 @@
       "category": "Foundational Programming Knowledge",
       "name": "Python",
       "description": "Familiarity with syntax and scripting"
-    },
-    {
-      "category": "Additional Suggestions",
-      "name": "Testing Tools",
-      "description": "Jest (unit testing), Cypress (end-to-end testing)"
-    },
-    {
-      "category": "Additional Suggestions",
-      "name": "Cloud Services",
-      "description": "AWS or Firebase"
-    },
-    {
-      "category": "Additional Suggestions",
-      "name": "Other Front-End Frameworks",
-      "description": "Vue.js or Angular"
-    },
-    {
-      "category": "Additional Suggestions",
-      "name": "Performance Optimization",
-      "description": "Lighthouse or lazy loading techniques"
     }
   ]
