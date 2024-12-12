@@ -1,8 +1,31 @@
 [
     {
+        "projectId": "lexiflash",
+        "projectName": "LexiFlash",
+        "description": "A vocabulary learning application designed for individual users. Utilizing vocabulary lists and flashcards, it aims to facilitate effective language learning. Unlike many other vocabulary building apps, LexiFlash offers unique features, including personalized vocabulary sets and immediate feedback on incorrect answers. This ensures a customized learning experience, allowing users to create their own vocabulary lists and review correct answers before making another attempt.",
+        "context": "This project was a final boothcamp validation project designed to offer an easy-to-use vocabulary learning solution directly in the browser, with no installation required.",
+        "technologiesUsed": [
+            {
+                "name": "JavaScript & Webpack",
+                "purpose": "Structured code modularly for efficient web application development."
+            }, {
+                "name": "SASS & Parcel",
+                "purpose": "For responsive styling and seamless development workflow."
+            }, {
+                "name": "Supabase",
+                "purpose": "Used as an external database server to manage and store project data. It provided real-time data synchronization and streamlined back-end operations, ensuring efficient data handling and seamless integration with the application."
+            }, {
+                "name": "React",
+                "purpose": "Used to build the application's user interface with a component-based architecture. It enabled efficient rendering, dynamic updates, and the creation of a responsive and interactive user experience."
+            }
+        ],
+        "otherTechnologies": [],
+        "urlGit": "https://github.com/kamil0m/LexiFlash",
+        "urlDemo": "https://lexiflash.vercel.app/"
+    }, {
         "projectId": "bestshop",
         "projectName": "Bestshop",
-        "description": "For this project, I developed an interactive calculator for the BestShop project that dynamically updates pricing based on user inputs. The calculator handles various events like changes, clicks, and focus/blur actions to provide a seamless user experience.",
+        "description": "For this project, I developed an interactive calculator that dynamically updates pricing based on user inputs. The calculator handles various events like changes, clicks, and focus/blur actions to provide a seamless user experience.",
         "context": "This project was part of a Coders Lab workshop focused on reinforcing JavaScript skills through practical application. It involved creating a user-friendly tool to enhance the BestShop website's functionality.",
         "technologiesUsed": [
             {
@@ -26,7 +49,7 @@
             }
         ],
         "urlGit": "https://github.com/kamil0m/Workshop_BestShop.git",
-        "urlDemo": ""
+        "urlDemo": "https://workshop-best-shop.vercel.app/"
     }, {
         "projectId": "jedzonko",
         "projectName": "Zaplanuj Jedzonko",
@@ -48,117 +71,6 @@
             }
         ],
         "urlGit": "https://github.com/kamil0m/scrum_lab.git",
-        "urlDemo": ""
-    }, {
-        "projectId": "lexiflash",
-        "projectName": "LexiFlash",
-        "description": "A vocabulary learning application designed for individual users. Utilizing vocabulary lists and flashcards, it aims to facilitate effective language learning. Unlike many other vocabulary building apps, LexiFlash offers unique features, including personalized vocabulary sets and immediate feedback on incorrect answers. This ensures a customized learning experience, allowing users to create their own vocabulary lists and review correct answers before making another attempt.",
-        "context": "This project was a final boothcamp validation project designed to offer an easy-to-use vocabulary learning solution directly in the browser, with no installation required.",
-        "technologiesUsed": [
-            {
-                "name": "JavaScript & Webpack",
-                "purpose": "Structured code modularly for efficient web application development."
-            }, {
-                "name": "SASS & Parcel",
-                "purpose": "For responsive styling and seamless development workflow."
-            }, {
-                "name": "Supabase",
-                "purpose": "Used as an external database server to manage and store project data. It provided real-time data synchronization and streamlined back-end operations, ensuring efficient data handling and seamless integration with the application."
-            }, {
-                "name": "React",
-                "purpose": "Used to build the application's user interface with a component-based architecture. It enabled efficient rendering, dynamic updates, and the creation of a responsive and interactive user experience."
-            }
-        ],
-        "otherTechnologies": [],
-        "urlGit": "",
-        "urlDemo": ""
-    }, {
-        "projectId": "lexiflash2",
-        "projectName": "LexiFlash - Coders Lab final project",
-        "description": "LexiFlash is a vocabulary learning application designed for individual users. Utilizing vocabulary lists and flashcards, it aims to facilitate effective language learning. Unlike many other vocabulary building apps, LexiFlash offers unique features, including personalized vocabulary sets and immediate feedback on incorrect answers. This ensures a customized learning experience, allowing users to create their own vocabulary lists and review correct answers before making another attempt.",
-        "context": "This project was designed to offer an easy-to-use vocabulary learning solution directly in the browser, with no installation required.",
-        "technologiesUsed": [
-            {
-                "name": "Version Control (Git & GitHub)",
-                "purpose": "Used for branching, committing, pull requests, and code merging."
-            }, {
-                "name": "JavaScript & Webpack",
-                "purpose": "Structured code modularly for efficient web application development."
-            }, {
-                "name": "SASS & Parcel",
-                "purpose": "For responsive styling and seamless development workflow."
-            }, {
-                "name": "Agile Methodologies (Scrum, Kanban)",
-                "purpose": "Simulated daily stand-ups, sprint planning, and retrospectives."
-            }
-        ],
-        "urlGit": "",
-        "urlDemo": ""
-    }, {
-        "projectId": "lexiflash3",
-        "projectName": "LexiFlash - Coders Lab final project",
-        "description": "LexiFlash is a vocabulary learning application designed for individual users. Utilizing vocabulary lists and flashcards, it aims to facilitate effective language learning. Unlike many other vocabulary building apps, LexiFlash offers unique features, including personalized vocabulary sets and immediate feedback on incorrect answers. This ensures a customized learning experience, allowing users to create their own vocabulary lists and review correct answers before making another attempt.",
-        "context": "This project was designed to offer an easy-to-use vocabulary learning solution directly in the browser, with no installation required.",
-        "technologiesUsed": [
-            {
-                "name": "Version Control (Git & GitHub)",
-                "purpose": "Used for branching, committing, pull requests, and code merging."
-            }, {
-                "name": "JavaScript & Webpack",
-                "purpose": "Structured code modularly for efficient web application development."
-            }, {
-                "name": "SASS & Parcel",
-                "purpose": "For responsive styling and seamless development workflow."
-            }, {
-                "name": "Agile Methodologies (Scrum, Kanban)",
-                "purpose": "Simulated daily stand-ups, sprint planning, and retrospectives."
-            }
-        ],
-        "urlGit": "",
-        "urlDemo": ""
-    }, {
-        "projectId": "lexiflash4",
-        "projectName": "LexiFlash - Coders Lab final project",
-        "description": "LexiFlash is a vocabulary learning application designed for individual users. Utilizing vocabulary lists and flashcards, it aims to facilitate effective language learning. Unlike many other vocabulary building apps, LexiFlash offers unique features, including personalized vocabulary sets and immediate feedback on incorrect answers. This ensures a customized learning experience, allowing users to create their own vocabulary lists and review correct answers before making another attempt.",
-        "context": "This project was designed to offer an easy-to-use vocabulary learning solution directly in the browser, with no installation required.",
-        "technologiesUsed": [
-            {
-                "name": "Version Control (Git & GitHub)",
-                "purpose": "Used for branching, committing, pull requests, and code merging."
-            }, {
-                "name": "JavaScript & Webpack",
-                "purpose": "Structured code modularly for efficient web application development."
-            }, {
-                "name": "SASS & Parcel",
-                "purpose": "For responsive styling and seamless development workflow."
-            }, {
-                "name": "Agile Methodologies (Scrum, Kanban)",
-                "purpose": "Simulated daily stand-ups, sprint planning, and retrospectives."
-            }
-        ],
-        "urlGit": "",
-        "urlDemo": ""
-    }, {
-        "projectId": "lexiflash5",
-        "projectName": "LexiFlash - Coders Lab final project",
-        "description": "LexiFlash is a vocabulary learning application designed for individual users. Utilizing vocabulary lists and flashcards, it aims to facilitate effective language learning. Unlike many other vocabulary building apps, LexiFlash offers unique features, including personalized vocabulary sets and immediate feedback on incorrect answers. This ensures a customized learning experience, allowing users to create their own vocabulary lists and review correct answers before making another attempt.",
-        "context": "This project was designed to offer an easy-to-use vocabulary learning solution directly in the browser, with no installation required.",
-        "technologiesUsed": [
-            {
-                "name": "Version Control (Git & GitHub)",
-                "purpose": "Used for branching, committing, pull requests, and code merging."
-            }, {
-                "name": "JavaScript & Webpack",
-                "purpose": "Structured code modularly for efficient web application development."
-            }, {
-                "name": "SASS & Parcel",
-                "purpose": "For responsive styling and seamless development workflow."
-            }, {
-                "name": "Agile Methodologies (Scrum, Kanban)",
-                "purpose": "Simulated daily stand-ups, sprint planning, and retrospectives."
-            }
-        ],
-        "urlGit": "",
-        "urlDemo": ""
+        "urlDemo": "https://scrum-lab.vercel.app/"
     }
 ]

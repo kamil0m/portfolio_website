@@ -7,7 +7,7 @@ export const Skills: React.FC = () => {
     console.log(uniqueCategories);
 
     return <div className="container skills__container">
-        <h1 className="skills__title">Here's what I can do!</h1>
+        <h1 className="home__title">Here's what I can do!</h1>
         {uniqueCategories.map((category, index) => {
             return (
                 <div className="skills__card" >

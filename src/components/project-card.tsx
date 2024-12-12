@@ -11,7 +11,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     const projectImagePath = `/src/assets/projects/${project.projectId}.png`;
 
     return (
-        <a className='card__link'> {/*add href when projects details available */}
+        <a className='card__link' href={project.urlDemo}> 
             <img src={projectImagePath} className='card__image'></img>
             <h2 className='card__title'>{project.projectName}</h2>
             <p className='project__description'>{project.description}</p>
@@ -27,6 +27,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 ))}
             </ul>
             <button className='card__button material-symbols-outlined'>arrow_forward</button>
+            <a className='card__button material-symbols-outlined' href={project.urlGit}>arrow_forward</a>
+            
         </a>
     );
 };

@@ -6,14 +6,15 @@
     flex-direction: column;
     align-items: center;
     
-    .home__title {
-        text-align: center;
-        margin: 1.5em 0;
-
-    }
     .home__text{
         font-size: fonts.$font-size-normal;
         text-align: center;
         line-height: 1.5em;
     }
+}
+
+.home__title {
+    text-align: center;
+    margin: 1.5em 0;
+
 }
