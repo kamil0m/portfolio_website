@@ -136,20 +136,30 @@
             .card__button {
                 height: 35px;
                 width: 35px;
-                border-radius: 50%;
-                background-color: colors.$color-black;
-                // color: colors.$color-white;
-                color: colors.$color-white;
-                border: 2px solid colors.$color-grey;
-                margin-top: .5em;
+                margin: .5em .5em 0 0;
                 cursor: pointer;
                 transform: rotate(-45deg);
                 transition: 0.4s ease;
             }
             
+            .button__go {
+                border-radius: 50%;
+                border: 2px solid colors.$color-grey;
+                color: colors.$color-white;
+                background-color: colors.$color-black;
+
+            }
+
+            .button__github {
+                font-size: 35px;
+                
+                &:hover {
+                    font-size: 50px;
+                }
+            }
         }
 
-        &:hover .card__button {
+        &:hover .button__go {
             background-color: colors.$color-accent-light;
             border: 2px solid colors.$color-accent;
         }
