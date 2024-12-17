@@ -8,10 +8,12 @@ import {
 
 export function MainLayout() {
 
-    const checkboxRef = useRef(null);
+    const checkboxRef = useRef<HTMLInputElement>(null);
 
     const closeMenu = () => {
-        checkboxRef.current.checked = false;
+        if (checkboxRef.current) {
+            checkboxRef.current.checked = false;
+        }
     }
 
  

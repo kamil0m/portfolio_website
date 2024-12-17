@@ -7,6 +7,7 @@ import { useEffect } from "react";
 
 type projectsData = Project[];
 
+
 export const Projects: React.FC = () => {
 
     // const swiper = useSwiper('.cards__wrapper', swiperConfig);
