@@ -8,7 +8,7 @@ interface ProjectCardProps {
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
 
-    const projectImagePath = `/src/assets/projects/${project.projectId}.jpeg`;
+    const projectImagePath = `/src/${project.projectId}.png`;
 
     return (
         <a className='card__link' href={project.urlDemo} target='_blank'> 
