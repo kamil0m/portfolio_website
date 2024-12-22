@@ -3,7 +3,6 @@
     "target": "ES2022",
     "lib": ["ES2023", "DOM", "DOM.Iterable"],
     "module": "ESNext",
-    // "module": "bundle",
     "rootDir": "./",
     "skipLibCheck": true,
 
@@ -23,54 +22,3 @@
   },
   "include": ["vite.config.ts", "**/*.ts", "**/*.tsx"]
 }
-
-// {
-//   "compilerOptions": {
-//     "target": "ES2022",
-//     "useDefineForClassFields": true,
-//     "lib": ["ES2022", "DOM", "DOM.Iterable"],
-//     "skipLibCheck": true,
-//     "esModuleInterop": true,
-//     "module": "ES2022",
-
-//     /* Bundler mode */
-//     "moduleResolution": "bundler",
-//     "noEmit": true,
-//     "allowImportingTsExtensions": true,
-//     "resolveJsonModule": true,
-//     "isolatedModules": true,
-//     "jsx": "react-jsx",
-
-//     /* Linting */
-//     "strict": true,
-//     "noUnusedLocals": true,
-//     "noUnusedParameters": true,
-//     "noFallthroughCasesInSwitch": true
-//   },
-//   "include": ["**/*.ts", "**/*.tsx"],
-//   "exclude": ["node_modules/**"]
-// }
-
-// {
-//   "compilerOptions": {
-//     "target": "ESNext",
-//     "useDefineForClassFields": true,
-//     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-//     "allowJs": false,
-//     "skipLibCheck": true,
-//     "esModuleInterop": false,
-//     "allowSyntheticDefaultImports": true,
-//     //this Line
-//     "strict": false,
-//     //this Line
-//     "forceConsistentCasingInFileNames": true,
-//     "module": "ESNext",
-//     "moduleResolution": "Node",
-//     "resolveJsonModule": true,
-//     "isolatedModules": true,
-//     "noEmit": true,
-//     "jsx": "react-jsx"
-//   },
-//   "include": ["src"],
-//   "references": [{ "path": "./tsconfig.node.json" }]
-// }
