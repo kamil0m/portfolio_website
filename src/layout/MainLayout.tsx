@@ -4,8 +4,6 @@ import {
     Outlet
 } from 'react-router-dom';
 
-
-
 export function MainLayout() {
 
     const checkboxRef = useRef<HTMLInputElement>(null);
@@ -16,7 +14,6 @@ export function MainLayout() {
         }
     }
 
- 
     // napisz obsluge blur z navbar container tak aby uncheck the checkbox
     return (
         <>
