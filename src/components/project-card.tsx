@@ -1,4 +1,8 @@
-import React from 'react';
+// import React from 'react';
+import { 
+    useEffect,
+    useState
+ } from "react";
 import Project from '../models/project';
 
 
@@ -7,12 +11,22 @@ interface ProjectCardProps {
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
+    // import projectImage from `@/assets/${project.projectId}.png`;
 
-    const projectImagePath = `/src/${project.projectId}.png`;
+    //Dynamically import images
+    const [projectImage, setProjectImage] = useState<string>('');
+
+    useEffect(() => {
+        import(`@/assets/${project.projectId}.png`)
+            .then((image) => setProjectImage(image.default))
+            .catch((err) => console.error(err));
+    }, [project.projectId]);
+
+    // const projectImagePath = `/src/${project.projectId}.png`;
 
     return (
         <a className='card__link' href={project.urlDemo} target='_blank'> 
-            <img src={projectImagePath} className='card__image'></img>
+            <img src={projectImage} className='card__image'></img>
             <h2 className='card__title'>{project.projectName}</h2>
             <p className='project__description'>{project.description}</p>
             <p className='project__context'>{project.context}</p>
