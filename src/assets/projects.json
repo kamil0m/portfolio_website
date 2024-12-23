@@ -72,49 +72,5 @@
         ],
         "urlGit": "https://github.com/kamil0m/scrum_lab.git",
         "urlDemo": "https://scrum-lab.vercel.app/"
-    }, {
-        "projectId": "jedzonko",
-        "projectName": "Zaplanuj Jedzonko",
-        "description": "For this project, I collaborated with a team of two other students in a simulation of real-world teamwork in a web application development environment using the SCRUM methodology. The project involved replicating the dynamics of a development team, emphasizing code reviews, problem-solving, and integrating code with teammates. It also showcased my ability to deliver engaging front-end solutions with dynamic interactions and responsive design.",
-        "context": "This project was part of a Coders Lab SCRUM Project — a week-long sprint, where I worked in a team of three. The focus was on self-directed learning with minimal instructor intervention, allowing us to develop collaborative skills and experience a workflow similar to real-world software projects.",
-        "technologiesUsed": [
-            {
-                "name": "JavaScript & Webpack",
-                "purpose": "Structured code modularly for efficient web application development."
-            }, {
-                "name": "SASS & Parcel",
-                "purpose": "For responsive styling and seamless development workflow."
-            }, {
-                "name": "Scrum",
-                "purpose": "Simulate a week-long sprint, emphasizing agile practices such as daily stand-ups, sprint planning, and retrospectives. This approach fostered teamwork, self-organization, and iterative development, mimicking real-world software project workflows."
-            }, {
-                "name": "Kanban",
-                "purpose": "Used for sprint planning and retrospectives."
-            }
-        ],
-        "urlGit": "https://github.com/kamil0m/scrum_lab.git",
-        "urlDemo": "https://scrum-lab.vercel.app/"
-    }, {
-        "projectId": "jedzonko",
-        "projectName": "Zaplanuj Jedzonko",
-        "description": "For this project, I collaborated with a team of two other students in a simulation of real-world teamwork in a web application development environment using the SCRUM methodology. The project involved replicating the dynamics of a development team, emphasizing code reviews, problem-solving, and integrating code with teammates. It also showcased my ability to deliver engaging front-end solutions with dynamic interactions and responsive design.",
-        "context": "This project was part of a Coders Lab SCRUM Project — a week-long sprint, where I worked in a team of three. The focus was on self-directed learning with minimal instructor intervention, allowing us to develop collaborative skills and experience a workflow similar to real-world software projects.",
-        "technologiesUsed": [
-            {
-                "name": "JavaScript & Webpack",
-                "purpose": "Structured code modularly for efficient web application development."
-            }, {
-                "name": "SASS & Parcel",
-                "purpose": "For responsive styling and seamless development workflow."
-            }, {
-                "name": "Scrum",
-                "purpose": "Simulate a week-long sprint, emphasizing agile practices such as daily stand-ups, sprint planning, and retrospectives. This approach fostered teamwork, self-organization, and iterative development, mimicking real-world software project workflows."
-            }, {
-                "name": "Kanban",
-                "purpose": "Used for sprint planning and retrospectives."
-            }
-        ],
-        "urlGit": "https://github.com/kamil0m/scrum_lab.git",
-        "urlDemo": "https://scrum-lab.vercel.app/"
     }
 ]
