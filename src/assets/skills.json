@@ -38,6 +38,10 @@
       "category": "Front-end Development Skills",
       "name": "React",
       "description": "Building dynamic user interfaces with Hooks and State Management"
+    },{
+      "category": "Front-end Development Skills",
+      "skill": "Lodash",
+      "description": "Utility library for simplifying JavaScript operations"
     },
     {
       "category": "Front-end Development Skills",
