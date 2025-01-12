@@ -4,7 +4,6 @@ import skills from "../../assets/skills.json";
 export const Skills: React.FC = () => {
 
     const uniqueCategories = Array.from(new Set(skills.map(skill => skill.category)));
-    console.log(uniqueCategories);
 
     return <div className="container skills__container">
         <h1 className="home__title">Here's what I can do!</h1>
@@ -23,8 +22,6 @@ export const Skills: React.FC = () => {
                         })}
                     </ul>
                 </div>
-
-            
             )
         })}
     </div>
